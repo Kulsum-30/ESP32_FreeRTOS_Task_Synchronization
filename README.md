@@ -2,20 +2,37 @@
 
 ## Overview
 
-This project analyzes task synchronization and CPU utilization using FreeRTOS on ESP32-S3.
+This project demonstrates task synchronization and CPU utilization analysis using FreeRTOS on the ESP32-S3 microcontroller.
 
-### Hardware Used
+The system interfaces:
+- DHT11 Temperature & Humidity Sensor
+- MAX30100 Pulse Oximeter Sensor
+
+The project analyzes:
+- Task creation
+- Task priorities
+- Binary semaphores
+- Single-core execution
+- Dual-core execution
+- CPU utilization
+
+## Technologies Used
+
 - ESP32-S3
-- DHT11 Sensor
-- MAX30100 Sensor
+- ESP-IDF
+- FreeRTOS
+- DHT11
+- MAX30100
+- C Programming
 
-### Concepts Used
-- FreeRTOS Tasks
-- Task Priorities
-- Binary Semaphore
-- CPU Utilization Analysis
-- Single Core vs Dual Core Execution
-- I2C Communication
+## Features
 
-### Author
+- Sensor interfacing
+- Multitasking with FreeRTOS
+- Binary semaphore synchronization
+- CPU utilization monitoring
+- Task priority analysis
+
+## Author
+
 Kulsum Shireen
